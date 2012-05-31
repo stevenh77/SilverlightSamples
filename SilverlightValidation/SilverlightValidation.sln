@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightValidation", "SilverlightValidation\SilverlightValidation.csproj", "{0C1CC1FC-915A-4428-8952-CDC79EABC3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightValidation.Web", "SilverlightValidation.Web\SilverlightValidation.Web.csproj", "{E65C6757-932B-4D01-9A8A-6D02F8FAA25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightValidation.PL", "SilverlightValidation.PL\SilverlightValidation.PL.csproj", "{13B5F568-F402-4A2A-9A23-0FDF0B5564E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightValidation.Tests", "SilverlightValidation.Tests\SilverlightValidation.Tests.csproj", "{D6F19856-008B-4FD6-B5B9-B941AD1AA7B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1CC1FC-915A-4428-8952-CDC79EABC3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1CC1FC-915A-4428-8952-CDC79EABC3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1CC1FC-915A-4428-8952-CDC79EABC3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1CC1FC-915A-4428-8952-CDC79EABC3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65C6757-932B-4D01-9A8A-6D02F8FAA25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65C6757-932B-4D01-9A8A-6D02F8FAA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65C6757-932B-4D01-9A8A-6D02F8FAA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65C6757-932B-4D01-9A8A-6D02F8FAA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B5F568-F402-4A2A-9A23-0FDF0B5564E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5F568-F402-4A2A-9A23-0FDF0B5564E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5F568-F402-4A2A-9A23-0FDF0B5564E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5F568-F402-4A2A-9A23-0FDF0B5564E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F19856-008B-4FD6-B5B9-B941AD1AA7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F19856-008B-4FD6-B5B9-B941AD1AA7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F19856-008B-4FD6-B5B9-B941AD1AA7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F19856-008B-4FD6-B5B9-B941AD1AA7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

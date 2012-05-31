@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroInfoTiles", "MetroInfoTiles\MetroInfoTiles.csproj", "{02fc995d-592e-40bd-b97b-dd336e60eeb5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02FC995D-592E-40BD-B97B-DD336E60EEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FC995D-592E-40BD-B97B-DD336E60EEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FC995D-592E-40BD-B97B-DD336E60EEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FC995D-592E-40BD-B97B-DD336E60EEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

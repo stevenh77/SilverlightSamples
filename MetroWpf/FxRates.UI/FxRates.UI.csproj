@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BD124E6-F437-47F4-93C9-E09170EB06A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FxRates.UI</RootNamespace>
+    <AssemblyName>FxRates.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.WPF4">
+      <HintPath>..\Libs\MvvmLight.4.0.0\GalaSoft.MvvmLight.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reactive">
+      <HintPath>..\Libs\Rx-Main.1.0.11226\lib\Net4\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\TimerTextBlock.cs" />
+    <Compile Include="Converters\AbsoluteNumberConverter.cs" />
+    <Compile Include="Converters\BoolToServiceRunningTextConverter.cs" />
+    <Compile Include="Converters\BoolToSubscribedTextConverter.cs" />
+    <Compile Include="Converters\CcyFromIconConverter.cs" />
+    <Compile Include="Converters\CcyToDisplayNameConverter.cs" />
+    <Compile Include="Converters\CcyToIconConverter.cs" />
+    <Compile Include="Converters\DateTimeToTimeConverter.cs" />
+    <Compile Include="Converters\DeltaToIconConverter.cs" />
+    <Compile Include="Helpers\IconHelper.cs" />
+    <Compile Include="Helpers\XamlHelper.cs" />
+    <Compile Include="Models\DisplayFxRate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\FxRatesViewModel.cs" />
+    <Compile Include="Views\FxRatesView.xaml.cs">
+      <DependentUpon>FxRatesView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\FxRatesView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\AUD.png" />
+    <Resource Include="Images\BRL.png" />
+    <Resource Include="Images\CAD.png" />
+    <Resource Include="Images\CHF.png" />
+    <Resource Include="Images\CNY.png" />
+    <Resource Include="Images\DOWN.png" />
+    <Resource Include="Images\EUR.png" />
+    <Resource Include="Images\GBP.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\INR.png" />
+    <Resource Include="Images\JPY.png" />
+    <Resource Include="Images\LEVEL.png" />
+    <Resource Include="Images\NZD.png" />
+    <Resource Include="Images\RUB.png" />
+    <Resource Include="Images\THB.png" />
+    <Resource Include="Images\UNK.png" />
+    <Resource Include="Images\UP.png" />
+    <Resource Include="Images\USD.png" />
+    <Resource Include="Images\ZAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FxRates.Common\FxRates.Common.csproj">
+      <Project>{789B8256-13E5-41B0-84B5-29A98A3F6E74}</Project>
+      <Name>FxRates.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MetroInfoTiles.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+             xmlns:l="clr-namespace:MetroInfoTiles"
+             Width="850"
+             Height="350"
+             xml:space="preserve">
+    <Canvas>
+        <l:DisplayTile x:Name="LevelZeroDisplayTile"
+                       Canvas.Left="250"
+                       Canvas.Top="50"
+                       DescriptionText="High level description for package, dashboard symbols for movements or value indicators for yields, rates etc."
+                       SideBarColour="{StaticResource LevelZeroBrush}"
+                       TitleText="FX Swap: 1,000 EURO" />
+        <l:DisplayTile x:Name="LevelOneDisplayTileSpot"
+                       Canvas.Left="50"
+                       Canvas.Top="200"
+                       DescriptionText="Date: 31 May 2012 09:02:31  USD = 0.806884&#10;Posted trade, settlement timeframe 2 days."
+                       SideBarColour="{StaticResource LevelOneBrush}"
+                       TitleText="FX Spot" />
+        <l:DisplayTile x:Name="LevelOneDisplayTileForward"
+                       Canvas.Left="450"
+                       Canvas.Top="200"
+                       DescriptionText="Date: 15 June 2012 09:02:31  Estimated USD = 0.78219&#10;Posted trade, current price as of 31 May 2012 09:05:31"
+                       SideBarColour="{StaticResource LevelOneBrush}"
+                       TitleText="FX Forward" />
+        <l:VConnection Height="30" Canvas.Left="200" Canvas.Top="170" Width="451"/>
+    </Canvas>
+</UserControl>

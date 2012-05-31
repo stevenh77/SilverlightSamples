@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS", "SSRS\SSRS.csproj", "{388264C5-BF71-4A8E-8EF4-6F62DD6A4E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS.Web", "SSRS.Web\SSRS.Web.csproj", "{A301F6B9-A865-4A1F-849D-085C0B5A5A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS.Services", "SSRS.Services\SSRS.Services.csproj", "{647369D2-B163-45B7-8E40-BBADEC2F30F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4DC0D03B-55EF-4134-9549-68319FECBA4C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS.Services.UnitTests", "SSRS.Services.UnitTests\SSRS.Services.UnitTests.csproj", "{06D1C29B-9BAC-4784-92F6-0DF91F192B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS.Services.WebTests", "SSRS.Services.WebTests\SSRS.Services.WebTests.csproj", "{40836A5F-C6F7-4CEF-9638-5C36F8D04789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRS.Services.DTO", "SSRS.Services.DTO\SSRS.Services.DTO.csproj", "{29663C66-DB7C-4704-8BF8-52B3BCFABC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388264C5-BF71-4A8E-8EF4-6F62DD6A4E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388264C5-BF71-4A8E-8EF4-6F62DD6A4E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388264C5-BF71-4A8E-8EF4-6F62DD6A4E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388264C5-BF71-4A8E-8EF4-6F62DD6A4E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A301F6B9-A865-4A1F-849D-085C0B5A5A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A301F6B9-A865-4A1F-849D-085C0B5A5A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A301F6B9-A865-4A1F-849D-085C0B5A5A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A301F6B9-A865-4A1F-849D-085C0B5A5A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647369D2-B163-45B7-8E40-BBADEC2F30F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647369D2-B163-45B7-8E40-BBADEC2F30F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647369D2-B163-45B7-8E40-BBADEC2F30F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647369D2-B163-45B7-8E40-BBADEC2F30F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D1C29B-9BAC-4784-92F6-0DF91F192B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D1C29B-9BAC-4784-92F6-0DF91F192B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D1C29B-9BAC-4784-92F6-0DF91F192B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D1C29B-9BAC-4784-92F6-0DF91F192B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40836A5F-C6F7-4CEF-9638-5C36F8D04789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40836A5F-C6F7-4CEF-9638-5C36F8D04789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40836A5F-C6F7-4CEF-9638-5C36F8D04789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40836A5F-C6F7-4CEF-9638-5C36F8D04789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29663C66-DB7C-4704-8BF8-52B3BCFABC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29663C66-DB7C-4704-8BF8-52B3BCFABC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29663C66-DB7C-4704-8BF8-52B3BCFABC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29663C66-DB7C-4704-8BF8-52B3BCFABC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
